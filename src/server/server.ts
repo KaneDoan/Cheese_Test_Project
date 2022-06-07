@@ -1,4 +1,4 @@
-import express = require('express');
+import * as express from 'express';
 import apiRouter from './routes';
 
 const app = express();
